@@ -1,0 +1,27 @@
+body {
+	color: #000000;
+	background-color: #992828;
+}
+
+@font-face {
+	font-family:"Klingon";
+	src:url("../font/KLINGON_.eot?") format("eot"),
+		url("../font/KLINGON_.woff") format("woff"),
+		url("../font/KLINGON_.ttf") format("truetype"),
+		url("../font/KLINGON_.svg#Klingon") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+.klingnum {
+	font-family: "Klingon";
+	src:url("../font/KLINGON_.eot?") format("eot"),
+		url("../font/KLINGON_.woff") format("woff"),
+		url("../font/KLINGON_.ttf") format("truetype"),
+		url("../font/KLINGON_.svg#Klingon") format("svg");
+	font-size: 120px;
+}
+
+.container {
+	text-align: center;
+}
