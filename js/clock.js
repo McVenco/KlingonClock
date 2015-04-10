@@ -29,7 +29,7 @@ function klingTxtClock(){
             return u + "vatlh ";
         } else {
             u = tens[String(u).charAt(0)] + " " + ones[String(u).charAt(1)];
-            return u + "valtlh ";
+            return u + "vatlh ";
         }
     }
 
