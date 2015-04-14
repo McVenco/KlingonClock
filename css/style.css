@@ -27,3 +27,7 @@ body {
 		url("../font/KLINGON_.svg#Klingon") format("svg");
 	font-size: 120px;
 }
+
+.container {
+	padding-top: 300px;
+}
