@@ -9,6 +9,10 @@ function klingNumClock() {
     if (s<10){s = "0" + s};
 
     document.getElementById("numClock").innerHTML = u + " : " + m + " : " + s;
+//    document.getElementById("numClockHrs").innerHTML = u;
+//    document.getElementById("numClockMin").innerHTML = " : " + m;
+//    document.getElementById("numClockSec").innerHTML = " : " + s;
+
     setTimeout(function(){ klingNumClock();}, 1000);
 }
 
