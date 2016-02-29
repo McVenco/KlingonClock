@@ -10,7 +10,7 @@ body {
 }
 
 @font-face {
-	font-family:"Klingon";
+	font-family: "Klingon";
 	src:url("../font/KLINGON_.eot?") format("eot"),
 		url("../font/KLINGON_.woff") format("woff"),
 		url("../font/KLINGON_.ttf") format("truetype"),
@@ -21,10 +21,6 @@ body {
 
 .klingnum {
 	font-family: "Klingon";
-	src:url("../font/KLINGON_.eot?") format("eot"),
-		url("../font/KLINGON_.woff") format("woff"),
-		url("../font/KLINGON_.ttf") format("truetype"),
-		url("../font/KLINGON_.svg#Klingon") format("svg");
 	font-size: 120px;
 }
 
