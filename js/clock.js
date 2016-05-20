@@ -8,7 +8,9 @@ function klingNumClock(){
 	if (m<10){m = "0" + m}
 	if (s<10){s = "0" + s}
 
-	document.getElementById("numClock").innerHTML = u + " : " + m + " : " + s
+	document.getElementById("numClockHour").innerHTML = u
+	document.getElementById("numClockMinute").innerHTML = m
+	document.getElementById("numClockSecond").innerHTML = s
 	setTimeout(function(){ klingNumClock()}, 1000)
 }
 

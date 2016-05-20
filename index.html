@@ -6,24 +6,32 @@
 	<meta name="description" content="Klingon, Clock, Klingon Clock, KlingonClock, Star Trek">
 	<meta name="author" content="Eric Vonk, www.ericvonk.com, www.mcvenco.nl">
 
-	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
 
-	<link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/pavilion/latest/pavilion.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body onLoad="loadClocks()">
 
 	<div class="container">
+
 		<h3 class="klingtext">’arlogh Qoylu’pu’?</h3> <!-- What time is it? (lit. How many times has it been heard?) -->
 
-		<h1 id="numClock" class="klingnum"></h1>
+		<div class="row">
+			<div class="col-pl-33">
+				<h1 id="numClockHour" class="klingnum"></h1>
+			</div>
+			<div class="col-pl-33">
+				<h1 id="numClockMinute" class="klingnum"></h1>
+			</div>
+			<div class="col-pl-33">
+				<h1 id="numClockSecond" class="klingnum"></h1>
+			</div>
+		</div>
 
 		<h3 id="txtClock" class="klingtext"></h3>
+
 	</div>
 
 	<script src="js/clock.js" type="text/javascript"></script>

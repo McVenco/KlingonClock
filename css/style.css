@@ -7,6 +7,8 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-weight: 300;
 }
 
 @font-face {
