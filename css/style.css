@@ -2,7 +2,7 @@ body {
 	text-align: center;
 	color: #000000;
 	background-color: #992828;
-	/* background-image: url("../img/klingon.svg"); */
+	//background-image: url("../img/klingon.svg");
 	background-size: 80%;
 	background-attachment: fixed;
 	background-position: center;
@@ -15,8 +15,8 @@ body {
 		url("../font/KLINGON_.woff") format("woff"),
 		url("../font/KLINGON_.ttf") format("truetype"),
 		url("../font/KLINGON_.svg#Klingon") format("svg");
-	font-weight:normal;
-	font-style:normal;
+	font-weight: normal;
+	font-style: normal;
 }
 
 .klingnum {
@@ -25,5 +25,5 @@ body {
 }
 
 .container {
-	padding-top: 300px;
+	padding-top: 100px;
 }
