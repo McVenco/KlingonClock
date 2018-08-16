@@ -24,6 +24,10 @@ body {
 	font-size: 120px;
 }
 
-.container {
+.klingtext {
+	font-size: 24px;	
+}
+
+.clock_container {
 	padding-top: 100px;
 }
