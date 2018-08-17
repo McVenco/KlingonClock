@@ -9,7 +9,7 @@ function klingNumClock(){
 	if (s<10){s = "0" + s}
 
 	document.getElementById("numClock").innerHTML = u + " : " + m + " : " + s
-	setTimeout(function(){ klingNumClock()}, 1000)
+	setInterval(klingNumClock, 1000)
 }
 
 function klingTxtClock(){
@@ -58,7 +58,7 @@ function klingTxtClock(){
 	}
 
 	document.getElementById("txtClock").innerHTML = returnU() + "" + returnM() + " rep " + returnS()
-	setTimeout(function(){ klingTxtClock()}, 1000)
+	setInterval(klingTxtClock, 1000)
 }
 
 function loadClocks(){
